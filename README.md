@@ -1,20 +1,25 @@
 # Projects-Java-ESGI3
 Projets Java Effectués lors du TP du 13 novembre 2026
 
-/model:
+Projet n°1 : Particles
 
-    - Particle : Représente une particule individuelle au sein de la simulation. Elle gère ses coordonnées spatiales (x, y), son rayon (radius), ses composantes de vitesse (vx, vy) ainsi que sa couleur (Color). Elle intègre également une méthode move() pour actualiser sa position en fonction de sa vitesse.
+Le but est de créer une application permettant de visualiser des particules sphériques se déplaçaient à travers l'écran qu'on utilise.
 
-    - Color : Gère la représentation des couleurs au format RVB (Rouge, Vert, Bleu) avec des valeurs comprises entre 0 et 255 grâce à une méthode de limitation (clamp). Elle permet aussi de générer une couleur aléatoire via une méthode statique dédiée.
+Chaque particule possède une direction, une couleur et une vitesse
 
-    - Simulation : Coordonne l'environnement global de la simulation en définissant ses dimensions (width, height) et en stockant la liste dynamique des particules (ArrayList<Particle>) qui y évoluent.
-
-
-    - Main : Lance le programme et accorde les différentes parties.
-
+Lors de l'impact entre deux particules, on peut avoir plusieurs évènements:
+- Soit les particules partent dans le sens opposé
+- Soit les particules se passent à travers
 
 
+Le code est exclusivement en Java pur, la partie graphique étant avec l'aide de JavaFX.
 
+Projet n°2: Wa-Tor:
 
+L'objectif ici est de simuler un environnement aquatique avec des thons et des requins, se calquant sur la réalité des écosystèmes marins.
+
+Les thons fuient les requins en se déplaçant partout et les réquins tuent les thons
+
+Note : je n'ai pas réussi, c'est pour ça qu'il n'y a rien
 
 Note pour le professeur : Désolé si cela est vide, je n'ai pas réussi à faire mieux, je n'ai que quelques bases en Java (Ant), j'ai essayé de faire au moins le premier projet, mais le reste non.
